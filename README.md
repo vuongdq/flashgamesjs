@@ -1,3 +1,79 @@
+# Flash Game Website
+
+A modern web application for hosting and playing Flash games, built with Next.js, MongoDB, and Ruffle Flash Emulator.
+
+## Features
+
+- 🎮 Flash Game Emulation using Ruffle
+- 👤 User Authentication System
+- 🎯 Game Categories and Tags
+- 📱 Responsive Design
+- 🔍 Search Functionality
+- 📊 Admin Dashboard
+- 🖼️ Thumbnail Generation
+- 📈 Game Analytics (Play Count)
+
+## Tech Stack
+
+- **Frontend:**
+  - Next.js
+  - React
+  - Tailwind CSS
+  - Ruffle Flash Emulator
+
+- **Backend:**
+  - Node.js
+  - MongoDB
+  - Mongoose
+
+- **Image Processing:**
+  - Sharp
+  - Formidable
+
+## Prerequisites
+
+Before you begin, ensure you have installed:
+- Node.js (v14 or higher)
+- MongoDB
+- npm or yarn
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/flash-game-website.git
+cd flash-game-website
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create `.env.local` file in the root directory:
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
+
+4. Create required directories:
+```bash
+# Windows
+mkdir public\games
+mkdir public\thumbnails
+
+# Linux/Mac
+mkdir -p public/games
+mkdir -p public/thumbnails
+```
+
+5. Run the development server:
+```bash
+npm run dev
+```
+
+## Project Structure
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
