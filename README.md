@@ -1,4 +1,4 @@
-# Flash Game Website
+# Flash Game Website by VuongDQ
 
 A modern web application for hosting and playing Flash games, built with Next.js, MongoDB, and Ruffle Flash Emulator.
 
